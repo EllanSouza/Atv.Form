@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <style>
+          h1{
+            color: red;
+          }
+          body{
+            margin: 100px;
+          }
+          button{
+            margin-left: 800px;
+            color: blueviolet;
+          }
+        </style>       
+    </head>
+    <body>
+        <header>
+            <nav>
+
+            </nav>
+        </header> 
+        <main>
+            <form>
+             
+                <div class="form-center">
+                <h1 style = 'font-size:20px'> <center> Inscrição Minicurso - ETAL </center> </h1>
+                </br>
+                <div class="mb-3 row">
+                    <label for="inputString" class="col-sm-1 col-form-label" Align="right" >Nome</label>
+                    <div class="col-sm-9">
+                      <input type="String" class="form-control" id="inputString">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="inputCPF" class="col-sm-1 col-form-label" Align="right">CPF</label>
+                    <div class="col-sm-4">
+                      <input type="cpf" class="form-control" id="inputCPF">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="inputDate" class="col-sm-1 col-form-label" Align="right">Nascimento</label>
+                    <div class="col-sm-4">
+                      <input type="date" class="form-control" id="inputDate">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="inputEmail" class="col-sm-1 col-form-label" Align="right">Email</label>
+                    <div class="col-sm-9">
+                      <input type="email" class="form-control" id="inputEmail">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="inputString" class="col-sm-1 col-form-label" Align="right">Endereço</label>
+                    <div class="col-sm-9">
+                      <input type="string" class="form-control" id="inputString">
+                    </div>
+                </div>
+                <fieldset class="row mb-3">
+                    <legend class="col-form-label col-sm-1 pt-0" Align="right">Sexo: </legend>
+                    <div class="col-sm-9">
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Feminino</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Masculino</label>
+                      </div>
+                    </div>
+                </fieldset>
+                    <div class="mb-3 row">
+                        <label for="inputPassword" class="col-sm-1 col-form-label" Align="right">Curso</label>  
+                        <div class="col-sm-9">
+                            <select id="disabledSelect" class="form-select">
+                            <option>Curso Técnico</option>
+                            <option>Outro</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                      <label for="inputPassword" class="col-sm-1 col-form" Align="right">Minicurso:</label>  
+                      <div class="col-sm-9">
+                      </br>
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Introdução a Computação Gráfica</label>
+                      </br>
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Introdução a Construção de Jogos</label>
+                      </br>
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Minicurso de Realidade Virtual</label>
+                    </br>
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Computação nas Nuvens </label>
+                      </div>
+                  </div>
+                    <div class="col-auto">
+                      <button type="submit" class="btn btn-primary mb-3" >Enviar</button>
+                    </div>
+                </div>
+            </form>
+        </main>
+        <footer>
+  
+        </footer>
+    </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+</html>
